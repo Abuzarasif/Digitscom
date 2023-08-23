@@ -1,0 +1,1114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+/* ----------------main bar----------- */
+.container
+{
+    background-color: #F9F9F9;
+
+}
+.subcontainer
+{
+    background-color: #F9F9F9;
+    width: 80%;
+    /* height: 3.8rem; */
+    display: flex;
+    margin:0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5px;
+    position: relative;
+padding: 0px;
+margin-bottom: 0px;
+}
+.login
+{
+    width: 15%;
+    display: flex;
+}
+
+.login img{
+    width:15px;
+    height:15px;
+
+}
+.login p
+{
+    font-size: 15px;
+    padding-left: 5px;
+
+}
+.logo
+{
+    width: 53%;
+    text-align: end;
+    
+}
+.logo img{
+    height: 54.97px;
+    width:13rem;
+    text-align: center;
+}
+.search
+{
+    display: flex;
+    width: 55%;
+justify-content: center;
+align-items: center;
+}
+form
+{
+    position: relative;
+}
+form input
+{
+    width: 20.5rem;
+    padding: 10px 17px;
+    position: relative;
+}
+.fa-search
+{
+    position: absolute;
+    top: 1rem;
+    right: 2px;
+}
+.minicart-icon
+{
+    padding-left: 20px;
+    font-size: 1.3rem;
+}
+/* -------------------navbar---------------- */
+.navbar
+{
+    width: 100%;
+    background-color: #444444;
+
+}
+.subnavbar
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.subnavbar ul
+{
+    display: flex;
+list-style-type: none;
+color: #FFFFFF;
+}
+.subnavbar ul li:hover
+{
+    background-color: #FFFFFF;
+    color: #444444 ;
+    padding-left: 20px;
+}
+
+.subnavbar ul li
+
+{
+font-size: 15px;
+padding: 16px 32px;
+padding-left: 0px;
+}
+/* --------------------picture----------------- */
+.picture 
+{
+    display: flex;
+background-image: url("./images/large.jpg");
+background-repeat: no-repeat;
+width: 100%;
+background-size: cover;
+height: 20.5rem;
+align-items: center;
+border: 0.1px solid white ;
+}
+.picture h1
+{
+    display: flex;
+    font-weight: 200;
+    height: 6rem;
+    padding-right:20px;
+    width: 23.5rem;
+    background-color: #00A1E0;
+color: #FFFFFF;
+font-size: 2.5rem;
+justify-content: end;
+align-items: center;
+}
+
+/* -------------picture library-------------- */
+.picturelibrary
+{
+
+    width: 100%;
+}
+.library
+{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+border: 0.1px solid white ;
+    
+}
+.library1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+border: 0.1px solid white ;
+background-size: cover;
+
+}
+/* .library1 :before
+{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg,transparent 60%,rgba(0,0,0,.5));
+
+} */
+
+.minilibrary1
+{
+background-image: url("images/large\ \(1\).jpg");
+width: 50%;
+background-repeat: no-repeat;
+height: 21rem;
+border: 0.1px solid white ;
+background-size: cover;
+
+}
+/* .minilibrary1::before
+{
+    content: "";
+    position: absolute;
+    width: 79.5%;
+    height: 102%;
+    background-image: linear-gradient(180deg,transparent 60%,rgba(0,0,0,.5));
+} */
+.minilibrary2
+{
+background-image: url("images/large\ \(2\).jpg");
+width: 50%;
+background-repeat: no-repeat;
+height: 21rem;
+border: 0.1px solid white ;
+
+background-size: cover;
+}
+.minilibrary3
+{
+background-image: url("images/large\ \(3\).jpg");
+width: 100%;
+background-repeat: no-repeat;
+height: 21rem;
+border: 0.1px solid white ;
+
+background-size: cover;
+}
+.lib{
+    width: 40%;
+border: 0.1px solid white ;
+background-size: cover;
+}
+
+.library2
+{
+    display: flex;
+    background-image: url("images/large\ \(4\).jpg");
+    background-repeat: no-repeat;
+width: 100%;
+    height: 42rem;
+    background-size: cover;
+border: 0.1px solid white ;
+    
+}
+.minilibrary1 p
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 75%;
+    padding-bottom: 2rem;
+    font-size: 25px;
+    height: 21rem;
+text-align: center;
+
+color: white;
+
+
+}
+.minilibrary2 p
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+height: 21rem;
+text-align: center;
+color: white;
+width: 75%;
+padding-bottom: 2rem;
+font-size: 25px;
+
+
+}.minilibrary3 p
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+height: 21rem;
+text-align: center;
+color: white;
+width: 25%;
+padding-bottom: 2rem;
+font-size: 25px;
+
+
+}
+.library2 p
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+height: 42rem;
+text-align: center;
+color: white;
+
+width: 75%;
+padding-bottom: 2rem;
+font-size: 25px;
+}
+
+/* ------------------card-------------------- */
+
+.card
+{
+    width: 100%;
+
+}
+.maincard
+{
+    width: 80%;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+/* height: 1050px; */
+justify-content: space-between;
+}
+.maincard p
+{
+    color: #0070D2;
+}
+
+.cards1 
+{
+background-size: cover;
+width: 33.33%;
+height: 30rem;
+position: relative;
+padding-right: 20px;
+
+}
+ .cards2 {
+background-size: cover;
+width: 33.33%;
+
+height: 30rem;
+position: relative;
+display: flex;
+flex-direction: column;
+padding: 50px 10px;
+}
+.cards2 a
+{
+    list-style: none;
+    text-decoration: none;
+}
+.cards2 p {
+font-size: 5.5rem;
+color: #0070D2;
+text-align: center;
+font-weight: 200;
+   }
+   .cards2 .online {
+font-size: 1rem;
+color: #0070D2;
+
+text-align: center;
+justify-content: center;
+   }
+.cards3 {
+   background-size: cover;
+   width: 33.33%;
+
+   height: 30rem;
+   position: relative;
+   padding-left: 20px;
+   }
+
+
+   .cards4 
+{
+background-size: cover;
+width: 33.33%;
+height: 30rem;
+position: relative;
+padding-right: 20px;
+
+}
+ .cards5 {
+background-size: cover;
+width: 33.33%;
+
+height: 30rem;
+position: relative;
+padding: 0px 10px;
+}
+.cards6 {
+   background-size: cover;
+   width: 33.33%;
+
+   height: 30rem;
+   position: relative;
+padding-left: 20px;   
+}
+   .radius
+   {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+   }
+
+   /* -------------mask---------------- */
+   .mask 
+   {
+    background-image: url("images/large\ \(5\).jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    clip-path: polygon(0% 19%, 100% 0%, 100% 100%, 0% 100%);
+
+   }
+   .mask h1
+   {
+    display: flex;
+background-color:#00A1E0;
+width: 20rem;
+height: 7rem;
+justify-content: flex-end;
+align-items: center;
+color: #FFFFFF;
+padding-right: 20px;
+   }
+
+   /* -------------subscribe-------------- */
+   .mainsub
+   {
+    width: 100%;
+    background-color:#444444;
+   }
+.subscribe
+{
+    width: 80%;
+    margin: 0 auto;
+    height: 4rem;
+    display: flex;
+}
+form
+{
+    padding: 3px 0px;
+    display: flex;
+    align-items: center;
+
+}
+form button
+{
+    background-color:#0086BA;
+    height: 2.56rem;
+    padding: 4px 15px;
+color: white;
+border-bottom-right-radius: 10%;
+border-top-right-radius: 10%;
+margin-left: -4px;
+border: none;
+}
+.subscribe p
+{
+    display: flex;
+    align-items: center;
+padding-left: 50px;
+    color: white;
+    
+}
+/* ---------------footer------------------- */
+.mainfooter
+{
+    width: 100%;
+    background-color:  #E9ECEF; 
+}
+.subfooter
+{
+   
+    width: 80%;
+    margin: 0 auto ;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer1 , .footer2 ,.footer3 , .footer4
+{
+    width: 25%;
+    line-height: 2rem;
+    height: 14rem;
+    padding-top: 30px;
+    font-size: 14px;
+    font-weight: 100;
+    border-bottom: 1px solid black;
+}
+.footer5
+{
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 6rem;
+}
+.footer6
+{
+width: 60%;
+font-weight: 100;
+
+text-align: center;
+align-items: center;
+height: 6rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.footer6 p
+{
+    align-items: center;
+}
+@media only screen and (min-width:544px) 
+{
+    #fa ,#fab ,#fac ,#fad
+    {
+        display: none;
+    }
+
+    #bars{
+        display: none;
+    }
+    .small
+    {
+        display: none;
+    }
+    .minilogin
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width:1025px)
+{
+    .tablet
+    {
+        display: none;
+    }
+}
+
+
+/* ------------------MEDIA QUERIES ----------------- */
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+    .tablet
+    {
+        display: none;
+    }
+    .subcontainer
+    {
+        width: 100%;
+    }
+    .library{
+        width: 95%;
+    }
+.logo img
+{
+        width: 9rem;
+        padding-right: 10px;
+}
+
+form input
+{
+    width: 13.5rem;
+}
+.cards2 p
+{
+    font-size: 2.5rem;
+}
+.minilibrary1 ,.minilibrary2 ,.minilibrary3
+{
+    background-size: cover;
+    background-position: bottom;
+}
+.library2
+{
+    background-position: bottom;
+}
+.footer6 p
+{
+    font-size:11px ;
+}
+
+.footer6
+{
+padding-left: 69px;
+
+}
+.cards1,.cards2 ,.cards3,.cards4,.cards5,.cards6
+{
+    height: 22rem;
+}
+.mask h1
+{
+    width:14rem;
+    height: 5rem;
+    font-size: 1.7rem;
+}
+.picture
+{
+    background-position: center;
+    height: 18.8rem;
+}
+.picture h1
+{
+    width: 14.5rem;
+    height: 5rem;
+    font-size: 2rem;
+}
+.radius
+{
+    width: 30px;
+    height: 30px;
+}
+.subnavbar
+{
+    width: 100%;
+}
+.subnavbar .hellow
+{
+    padding-left: 15px;
+}
+.subscribe p
+{
+    font-size: 9px;
+}
+.footer1 , .footer2 ,.footer3 , .footer4
+{
+    font-size: 13px;
+}
+}
+
+@media only screen and (min-width:200px) and (max-width:543px)
+{
+   
+    
+    #bars{
+        display: inline-block;
+    }
+    .big
+    {
+        display: none;
+    }
+ .login
+ {
+    display: none;
+ }
+ .search
+ {
+    display: none;
+ }
+.logo
+{
+    width: 100%;
+    text-align: center;
+}
+.logo .img
+{
+    width: 9rem;
+}
+.subnavbar
+{
+    width: 100%;
+}
+.subnavbar ul li
+{
+    font-size: 10px;
+    padding: 13px 7px;
+}
+.picture h1
+{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.picture
+{
+    height: 6rem;
+    background-position:center ;
+}
+
+.library
+{
+    width: 100%;
+display: flex;
+flex-direction: column;
+}
+.minilibrary1
+{
+    width: 100%;
+    height: 12rem;
+}
+.subscribe
+{
+    flex-direction: column;
+}
+.library
+{
+    width: 100%;
+}
+.library1
+{
+    width: 100%;
+}
+.minilibrary1
+{
+ height: 16rem;
+    width: 100%;
+}
+.minilibrary2
+{
+ height: 16rem;
+background-position: center;
+    width: 100%;
+}
+.minilibrary3
+{
+ height: 16rem;
+
+    width: 100%;
+}
+.library2
+{
+    width: 100%;
+}
+.lib
+{
+    width: 100%;
+}
+.minilibrary1 p
+{
+    height: 15rem;
+    font-size: 23px;
+    padding-right: 33px;
+}
+.minilibrary2 p
+{
+    height: 15rem;
+    font-size: 23px;
+    padding-right: 33px;
+}
+.minilibrary3 p
+{
+    width: 50%;
+    height: 15rem;
+    font-size: 23px;
+    padding-right: 33px;
+}
+.library2 p
+{
+    height: 15rem;
+    font-size: 23px;
+    padding-right: 33px;
+}
+.library2
+{
+    background-position: inherit;
+    height: 16rem;
+
+}
+
+
+.maincard
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#rem
+{
+    font-size: 0.8rem;
+}
+.maincard p
+{
+    font-size: 14px;
+}
+.maincard h2
+{
+    font-size: 15px;
+}
+.cards1
+{
+    width: 45%;
+    padding-right: 0px;
+    height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 6rem;
+}
+.cards2
+{
+    width:45%;
+    padding-top: 3.5rem;
+
+    padding-right: 0px;
+    /* padding: 35px 10px; */
+    height: auto;
+}.cards3
+{
+    padding-bottom: 3rem;
+
+    width: 45%;
+    padding-left: 0px;
+    height: auto;
+}
+.cards4
+{
+    width: 45%;
+    padding-right: 0px;
+    height: auto;
+        padding-bottom: 3rem;
+
+}.cards5
+{
+    width: 45%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 3rem;
+
+    height: auto;
+}.cards6
+{
+    width: 45%;
+    padding-left: 0px;
+    padding-bottom: 3rem;
+
+    height: auto;
+}
+/* .maincard
+{
+    text-align: center;
+}
+.maincard p
+{
+    text-align: center;
+}
+.maincard h2
+{
+    text-align: center;
+} */
+.cards2 p
+{
+    font-size: 2.9rem;
+}
+.mask h1
+{
+    width: 9rem;
+    height: 3rem;
+    font-size: 16px;
+}
+.mask
+{
+    height: 90px;
+    clip-path: none;
+}
+.subscribe
+{
+    width: 100%;
+    align-items: center;
+    height: 6rem;
+}
+form input
+{
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.subscribe p
+{
+    padding-left: 0px;
+    font-size: 12px;
+}
+.subfooter
+{
+    width: 100%;
+    flex-direction: column;
+    /* text-align: center; */
+padding-left: 10px;
+}
+.footer1 , .footer2 ,.footer3 , .footer4,.footer5,.footer6
+{
+    width: 100%;
+}
+
+.footer1 , .footer2 ,.footer3 , .footer4
+{
+    height: auto;
+padding-top: 15px;
+display: flex;
+justify-content: space-between;
+padding-right: 0.9rem;
+}
+.footer5
+{
+    justify-content: space-evenly;
+}
+.footer6
+{
+    align-items: flex-start;
+}
+.footer6 p
+{
+    display: flex;
+    align-items: baseline;
+justify-content: flex-start;
+    font-size: 12px;
+}
+.subnavbar ul
+{
+    justify-content: center;
+}
+.none
+{
+    display: none;
+    height: 4rem;
+}
+.subcontainer
+{
+    width: 100%;
+    display: block;
+}
+.minilogin{
+    display: flex;
+width: 100%;
+padding-top: 0.5rem;
+/* height: 7rem; */
+flex-wrap: wrap;
+}
+
+.logof
+{
+    padding-top: 0.5rem;
+    width: 100%;
+}
+
+#input
+{
+    width: 100%;
+}
+
+.small
+{
+    width: 33%;
+    height: 3rem;
+
+}
+#mini
+{
+    display: flex;
+    width: 33%;
+    align-items: center;
+justify-content: end;
+    padding-right: 20px;
+font-size: 1.4rem;
+}
+#bars
+{
+    display: flex;
+    width: 33%;
+    align-items: center;
+padding-left: 20px;
+font-size: 1.4rem;
+}
+.subnavbar ul
+{
+    display: none;
+}
+form
+{
+    width: 95%;
+    font-size: 14px;
+}
+.subscribe p
+{
+    padding-left: 11px;
+    font-size: 1.08rem;
+}
+.tablet{
+    display: none;
+
+}
+
+}
+@media only screen and (min-width:540px )and (max-width:768px)
+{
+    .tablet
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    /* justify-content: space-around; */
+    padding: 0.5rem;
+    }
+
+    #bars
+    {
+        display: flex;
+        font-size: 2rem;
+        padding-left: 2rem;
+    }
+    .tablet p
+    {
+        font-size: 1.4rem;
+        padding: 0.5rem;
+    }
+    .center
+    {
+        width: 42%;
+        display: flex;
+        justify-content: end;
+    }
+    .smalls
+    {
+        height: 2.8rem;
+        display: flex;
+    }
+    .subnavbar ul
+    {
+        display: none;
+    }
+.minilogin{
+    display: none;
+}
+.tabsearch
+{
+    display: flex;
+    font-size: 1.3rem;
+    width: 50%;
+    justify-content: center;
+}
+.tabsearch .minicart-icon
+{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: none;
+}
+.logo{
+    display: none;
+}
+.login{
+    display: none;
+}
+
+    .subcontainer
+    {
+        width: 100%;
+    }
+    .library{
+        width: 95%;
+    }
+.logo img
+{
+        width: 9rem;
+        padding-right: 10px;
+}
+
+form input
+{
+    width: 13.5rem;
+}
+.cards2 p
+{
+    font-size: 2.5rem;
+}
+.minilibrary1 ,.minilibrary2 ,.minilibrary3
+{
+    background-size: cover;
+    background-position: bottom;
+}
+.library2
+{
+    background-position: bottom;
+}
+.footer6 p
+{
+    font-size:11px ;
+}
+
+.footer6
+{
+padding-left: 69px;
+
+}
+.cards1,.cards2 ,.cards3,.cards4,.cards5,.cards6
+{
+    height: 22rem;
+}
+.mask h1
+{
+    width:14rem;
+    height: 5rem;
+    font-size: 1.7rem;
+}
+.picture
+{
+    background-position: center;
+    height: 10.8rem;
+}
+.picture h1
+{
+    width: 13.5rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+.radius
+{
+    width: 30px;
+    height: 30px;
+}
+.subnavbar
+{
+    width: 100%;
+}
+.subnavbar .hellow
+{
+    padding-left: 15px;
+}
+.subscribe p
+{
+    font-size: 9px;
+}
+.footer1 , .footer2 ,.footer3 , .footer4
+{
+    font-size: 13px;
+}
+}
