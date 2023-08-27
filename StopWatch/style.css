@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.hi h1 {
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 2rem;
+    /* font-size: 3rem; */
+    font-weight: bold;
+}
+
+.hi {
+    height: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading h1 {
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-right: 10px solid black;
+}
+
+.button {
+    margin: 0 auto;
+    width: 70%;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 27%;
+    height: 2rem;
+}
