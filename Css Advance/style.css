@@ -1,0 +1,123 @@
+/* .background */
+/* { */
+    /* background-image: url(images/background.jpg); */
+    /* background-size: cover; */
+    /* background-color: transparent; */
+/* } */
+/* p{ */
+    /* color:white ; */
+/* } */
+/* .transform
+{ */
+ /* background-color: black;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+transform: translate(50px,100px); */
+/* }
+p { */
+    /* background-color: aqua;
+    width: 100px;
+    height: 100px;
+
+    text-align: center; */
+
+    /* transition:height 2s; */
+    /* transition:width 2s,height 2s; */
+    /* transition-timing-function: ease; */
+/* transition-timing-function: cubic-bezier(1,2,3,4); */
+    /* transform: translate(50px,100px); */
+/* transform: rotate(20deg); */
+/* transform:scale(2,2); */
+/* transition-delay: 4s; */
+
+/* }
+p:hover { */
+    /* background-color: aqua;
+    width: 100px;
+    height: 100px;
+    text-align: center; */
+/* transform: translate(50px,100px); */
+/* transform: rotate(-20deg); */
+/* transform:scale(2,2); */
+/* transform: skewY(20deg); */
+/* transform:matrix(3,30deg,20deg,2,4,6) */
+/* transform:rotateX(180deg); */
+/* transform:rotateY(120deg); */
+/* transform:rotateZ(180deg);
+transition: width 2s; */
+/* height: 400px;
+width: 400px;
+transition: height 2s, width 2s , transform 2s ; */
+/* } */
+/* @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  } */
+  /* @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  } */
+  /* @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+   */
+  /* The element to apply the animation to */
+  /* div {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+/* animation-delay: 2s; */
+/* animation-direction: normal; */
+/* animation-direction:reverse;
+
+} */
+
+img{
+    background-color: transparent;
+}
+.mask{
+height: 600px;
+width: 600px;
+    -webkit-mask-image: url(images/italian\ terre.jpg);
+    mask-image:url(images/italian\ terre.jpg);
+    -webkit-mask-image:no-repeat;
+    mask-image:no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
