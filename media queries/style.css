@@ -1,0 +1,16 @@
+.box{
+    background-color: red;
+    color:whitesmoke;
+    font-size: 3.5rem;
+    mi
+    min-height: 400px;
+    text-align: center;
+    display: none;
+}
+@media screen ( max-width:20rem ) 
+{
+    #box1
+    {
+        display:block;
+    }
+}
