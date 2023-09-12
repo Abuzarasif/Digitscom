@@ -1,0 +1,21 @@
+$list :10px 20px 30px;
+@mixin alpha {
+    border-radius: 2px solid black ;
+    margin: 0px;
+    padding:0px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.test
+{
+    // padding:length($list);
+    // padding: length((width:10px,height:20px)) ;
+
+    // padding: nth($list,2 );
+    // padding: nth([list1,list2,list3],-2 );
+
+    // padding:set-nth($list, 3, 40px )
+
+       @include alpha();
+
+}
