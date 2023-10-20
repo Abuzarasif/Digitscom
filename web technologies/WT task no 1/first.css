@@ -1,0 +1,43 @@
+.content1
+{
+    display: flex;
+    flex-wrap: wrap;
+width: 80%;   
+text-align: center;
+
+}
+.pic
+{
+    padding-top: 3rem;
+    width: 20%;
+}
+.heading
+{
+    padding-top: 5rem;
+    width: 80%;
+}
+.heading p
+{
+    padding-bottom: 2.5rem;
+}
+.heading a
+{
+    text-decoration: none;
+}
+
+
+.buy
+{
+    color: white;
+    box-shadow: none;
+    border-color:blue;
+    background-color: blue;
+padding: 0.5rem 4.5rem;
+border-radius: 15%;
+}
+.register
+{
+    position: fixed;
+    bottom: 2rem;
+    right: 5rem;
+}
