@@ -1,0 +1,19 @@
+.content3
+{
+    width: 80%;
+    display: flex;
+flex-direction: column;
+padding-top: 2rem;
+text-align: inherit;
+}
+table
+{
+    padding-top: 5rem;
+    padding-left: 8rem;
+}
+.register
+{
+    position: fixed;
+    bottom: 2rem;
+    right: 5rem;
+}
