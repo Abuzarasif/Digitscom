@@ -1,0 +1,32 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/mystyle.css">
+<script>
+function alphabet(){
+if((event.charcode >64 && event.charcode <91) || (event.charcode >96 && event.charcode <123)){
+return true;
+}
+else{
+alert("Enter Alphabets Only");
+}
+}
+
+</script>
+</head>
+<body class="container">
+<br/><br/><br/>
+<h2>Sign-Up</h2><br/>
+<form class="form-group">
+<label>Name:</label>
+<input type="text" placeholder="Username" class="form-control" id="name" onkeypress="alphabet()" />
+<span id="myDIV" style="display:none;color:red">*Enter Name</span>
+
+
+
+</form>
+<button class="btn btn-primary">Sign-Up</button>
+</body>
+</html>
