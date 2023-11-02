@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>TechLead 4.0</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:#f2f2fd;">
+        <a class="navbar-brand" href="index.html">TechLead 4.0</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" style="font-size: 18px;">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Courses
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="python.html">Introduction to Python</a>
+                  <a class="dropdown-item" href="data.html">Data Science with Python</a>
+                  <a class="dropdown-item" href="web.html">Web Development</a>
+                  <a class="dropdown-item" href="mobile.html">Mobile App Development</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admission.html">Admission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="mr-2" ><a style="text-decoration: none; color: #17a2b8;" href="#"><i class="fa fa-search icon-search"></i></a></div>
+          <div class="mx-2">
+            <button class="btn btn-info" data-toggle="modal" data-target="#loginModal">Login</button>
+            <button class="btn btn-info" data-toggle="modal" data-target="#signupModal">SignUp</button>
+          </div>
+        </div>
+      </nav>
+  <!--login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login to TechLead 4.0</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!--Signup Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Get an account TechLead 4.0</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputname">Name</label>
+                  <input type="text" class="form-control" id="exampleInputname">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                  <label for="cexampleInputPassword1">Confirm Password</label>
+                  <input type="password" class="form-control" id="cexampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Create Account</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- section -->
+<section style="background-color: whitesmoke;">
+    <div class="container pt-4 pb-4">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-5">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Tell Us Your Name</label>
+                      <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Select Your Query</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Introduction to Python</option>
+                        <option>Data Science with Python</option>
+                        <option>Web Development</option>
+                        <option>Mobile App Development</option>
+                      </select>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">Are you a Member</div>
+                        <div class="col-sm-6">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                              Yes
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">Are you a Professional</div>
+                        <div class="col-sm-6">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                              Yes
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="form-group row">
+                        <div class="col-sm-6">Are you a Coder</div>
+                        <div class="col-sm-6">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck1">
+                            <label class="form-check-label" for="gridCheck1">
+                              Yes
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Tells us your self</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Type about your self"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-outline-info">Submit</button>
+                  </form>
+            </div>
+            <div class="col-sm-12 col-md-1">
+            </div>
+            <div class="col-sm-12 col-md-6 mt-4 mb-4 map-responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14478.27837054227!2d67.00219273071258!3d24.878545644724515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb315f52cd498b7%3A0x3071a88093faec21!2sLyari%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh!5e0!3m2!1sen!2s!4v1590955797313!5m2!1sen!2s" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="page-footer pt-3" style="background-color:#e0e8f1;">
+  <div class="container-fluid text-center text-md-left">
+
+    <div class="row text-center text-md-left mt-3 pb-3">
+
+      <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 pl-5 pr-5">
+        <h6 class="text-uppercase mb-4 font-weight-bold text-info">TechLead 4.0</h6>
+        <p>TechLead 4.0.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include Python, C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+      </div>
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold text-info">Our Courses</h6>
+        <p>
+          <a style="text-decoration: none; color: black;" href="python.html">Introduction to Python</a>
+        </p>
+        <p>
+          <a style="text-decoration: none; color: black;" href="data.html">Data Science With Python</a>
+        </p>
+        <p>
+          <a style="text-decoration: none; color: black;" href="web.html">Web Development</a>
+        </p>
+        <p>
+          <a style="text-decoration: none; color: black;" href="mobile.html">Mobile App Development</a>
+        </p>
+      </div>
+
+      <hr class="w-100 clearfix d-md-none">
+
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h6 class="text-uppercase mb-4 font-weight-bold text-info">Contact</h6>
+        <p>
+          <i class="fa fa-home mr-3"></i> Bahria , Lahore, Pakistan</p>
+        <p>
+          <i class="fa fa-envelope mr-3"></i> Abuzarasif19@gmail.com</p>
+        <p>
+          <i class="fa fa-phone mr-3"></i> + 92 301 0422 906</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-8">
+        <p class="text-center text-md-left">© 2020 Copyright:
+          <a href="index.html">
+            <strong> TechLead 4.0.com</strong>
+          </a>
+        </p>
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="text-center text-md-right">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a style="text-decoration: none; color: black;" class="btn-sm mx-1" href="#">
+                <i class="fa fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a style="text-decoration: none; color: black;" class="btn-sm mx-1" href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a style="text-decoration: none; color: black;" class="btn-sm mx-1" href="#">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a style="text-decoration: none; color: black;" class="btn-sm mx-1" href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+</footer>
+
+<!-- Scroll Up -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="arrow-up.png" alt="" width='40px' height='30px'></button>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+          } else {
+              mybutton.style.display = "none";
+          }
+      }
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+  </script>
+  </body>
+</html>

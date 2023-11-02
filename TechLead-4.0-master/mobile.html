@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>TechLead 4.0</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color:#f2f2fd;">
+    <a class="navbar-brand" href="index.html">TechLead 4.0</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto" style="font-size: 18px;">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Courses
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="python.html">Introduction to Python</a>
+            <a class="dropdown-item" href="data.html">Data Science with Python</a>
+            <a class="dropdown-item" href="web.html">Web Development</a>
+            <a class="dropdown-item active-bg" href="mobile.html">Mobile App Development</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="admission.html">Admission</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+      <div class="mr-2"><a style="text-decoration: none; color: #17a2b8;" href="#"><i
+            class="fa fa-search icon-search"></i></a></div>
+      <div class="mx-2">
+        <button class="btn btn-info" data-toggle="modal" data-target="#loginModal">Login</button>
+        <button class="btn btn-info" data-toggle="modal" data-target="#signupModal">SignUp</button>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login to TechLead 4.0</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Signup Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Get an account TechLead 4.0</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputname">Name</label>
+              <input type="text" class="form-control" id="exampleInputname">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group">
+              <label for="cexampleInputPassword1">Confirm Password</label>
+              <input type="password" class="form-control" id="cexampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Create Account</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- section -->
+  <section>
+    <div>
+      <div class="carousel-inner">
+          <img src="bg2.jfif" class="d-block w-100" alt="" height="400px">
+          <div class="carousel-caption d-md-block">
+            <h3>Mobile App Development Course</h3>
+            <p>Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. ... The user is often the focus of interaction with their device, and the interface entails components of both hardware and software.</p>
+            <a href="admission.html"><button type="button" class="btn btn-danger">Enroll Now</button></a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h5 class="text-center mt-5 text-danger">Course Fees : 2700 Rs. Per Month</h5>
+    <div class="row">
+      <div class="col mt-4 mb-4">
+        <div class="text-center">
+          <h4>Course Summary</h4>
+        </div>
+        <div class="row mt-4 mb-4">
+          <div class="col-md-6 text-secondary">
+            <p>This Python Programming course is a beginners course. Learn to code using Python. Learn conveniently from
+              your internet connection. You will receive the connection details upon booking. Our style is frendly,
+              relax, interactive, and practical.</p>
+            <h5 class="text-danger">Prerequisites </h5>
+            <p>No coding experience is required. </p>
+            <p>Internet connection. Download Visual Studio Code.</p>
+            <h5 class="text-danger">Who Should Attend? </h5>
+
+            <p>This course is also suitable for trainee programmers who may have little, to no in-depth knowledge of
+              programming.</p>
+
+          </div>
+          <div class="col-md-6">
+            <a href="#"><img class="img-fluid" src="p1.jfif"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <section class="cs-bg">
+    <div class="container" style="color: gainsboro;">
+        <h4 style="color: white;" class="text-center pt-5">Course Outline</h4>
+      <div class="row pb-4 pt-4">
+        <div class="col-md-6">
+          <div>
+            <h6 class="text-danger">Data Types, Variables:</h6>
+            <p>Primitive types; Characters &amp; Strings; Boolean; Working with variables and its scope; Type conversion
+              and casting. </p>
+          </div>
+          <div>
+            <h6 class="text-danger">Operators and Expressions:</h6>
+            <p>Introduction of operators; Arithmetic operators; Relational operators; Assignment operator; Logical
+              operators; Increment and decrement operators; More in operators. </p>
+          </div>
+          <div>
+            <h6 class="text-danger">Decision Making:</h6>
+            <p>If statement; If - else statement; If- elif - else statement; Nested if - else; </p>
+          </div>
+          <div>
+            <h6 class="text-danger">Operators and Expressions:</h6>
+            <p>Introduction of operators; Arithmetic operators; Relational operators; Assignment operator; Logical
+              operators; Increment and decrement operators; More in operators. </p>
+          </div>
+          <div>
+            <h6 class="text-danger">Using Loops: </h6>
+            <p>The while, while-else; do-while and the for loop; Jump statements: break, continue; Nesting loops. </p>
+          </div>
+          <div>
+            <h6 class="text-danger">Data Structures:</h6>
+            <p>Lists. Tuples. Dictionary. <br> Using Built-in modules and functions for strings, maths and dates. <br>
+              Object-Oriented Programming (OOP) principles. </p>
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div>
+            <h6 class="text-danger">Using Modules:</h6>
+            <p>Creating and using Functions.<br>Creating a Module in class; Calling a Module; Returning value from a
+              Module; Adding a Method that takes parameters; </p>
+          </div>
+          <div>
+            <h6 class="text-danger">Introduction to Classes and Objects:</h6>
+            <p>Creating a Class; Creating an Object; Using an Object; Adding Instance variables; Controlling
+              accessibility; Naming conventions for class members. Inner Classes.<br>Class Constructors; Parameterized
+              Constructors.<br>Inheritance. Overload. </p>
+          </div>
+          <div>
+            <h6 class="text-danger">Exception Handling:</h6>
+            <p>Fundamentals of exception handling; Exception types; Using try and Except.</p>
+          </div>
+          <div>
+            <h6>Files, streams:</h6>
+            <p>Open, Traverse, Read and Create Files: Csv, txt and Json Files. </p>
+          </div>
+          <div>
+            <h6 class="text-danger">Database:</h6>
+            <p>Connect to a database, create Database, drop a database, create a table, alter tables, drop a table,
+              insert, delete, update records, query a database and display results.</p>
+          </div>
+          <div>
+            <h6 class="text-danger">API:</h6>
+            <p>Connecting to API’s </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer pt-3" style="background-color:#e0e8f1;">
+    <div class="container-fluid text-center text-md-left">
+
+      <div class="row text-center text-md-left mt-3 pb-3">
+
+        <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3 pl-5 pr-5">
+          <h6 class="text-uppercase mb-4 font-weight-bold text-info">TechLead 4.0</h6>
+          <p>TechLead 4.0.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to help the upcoming programmers with the
+            code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We
+            will help programmers build up concepts in different programming languages that include Python, C, C++,
+            Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
+        </div>
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold text-info">Our Courses</h6>
+          <p>
+            <a style="text-decoration: none; color: black;" href="python.html">Introduction to Python</a>
+          </p>
+          <p>
+            <a style="text-decoration: none; color: black;" href="data.html">Data Science With Python</a>
+          </p>
+          <p>
+            <a style="text-decoration: none; color: black;" href="web.html">Web Development</a>
+          </p>
+          <p>
+            <a style="text-decoration: none; color: black;" href="mobile.html">Mobile App Development</a>
+          </p>
+        </div>
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold text-info">Contact</h6>
+          <p>
+            <i class="fa fa-home mr-3"></i> Bahria , Lahore, Pakistan</p>
+          <p>
+            <i class="fa fa-envelope mr-3"></i> Abuzarasif19@gmail.com</p>
+          <p>
+            <i class="fa fa-phone mr-3"></i> + 92 301 0422 906</p>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-md-8">
+          <p class="text-center text-md-left">© 2020 Copyright:
+            <a href="index.html">
+              <strong> TechLead 4.0.com</strong>
+            </a>
+          </p>
+
+        </div>
+
+        <div class="col-md-4">
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a style="text-decoration: none; color: black;" class="btn-sm mx-1" href="#">
+                  <i class="fa fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a style="text-decoration: none; color: black;" class="btn-sm mx-1" href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a style="text-decoration: none; color: black;" class="btn-sm mx-1" href="#">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a style="text-decoration: none; color: black;" class="btn-sm mx-1" href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Up -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="arrow-up.png" alt="" width='40px'
+      height='30px'></button>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
+
+</html>
